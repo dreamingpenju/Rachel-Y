@@ -1,0 +1,33 @@
+@font-face {
+    font-family: coffee;
+    src: url(font/coffee-latte.regular.ttf)
+}
+
+body {
+    text-align:center;
+    background-color: #d2c1b0;
+}
+
+.navbar {
+    list-style-type: none;
+    top:0;
+    left:0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    background-color: #ad6d2f;
+    position:fixed;
+    font-family: coffee;
+    text-align: center;
+
+}
+.nav{
+    display: inline;
+    padding:20px;
+}
+
+#top{
+    padding-top:80px;
+    font-family: coffee;
+    font-size: 20px;
+}

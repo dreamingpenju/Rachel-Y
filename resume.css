@@ -1,0 +1,48 @@
+@font-face {
+    font-family: coffee;
+    src: url(font/coffee-latte.regular.ttf)
+}
+body {
+    padding-left:30px;
+    background-color: #d2c1b0;
+    width:75%;
+}
+.navbar {
+    list-style-type: none;
+    top:0;
+    left:0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    background-color: #ad6d2f;
+    position:fixed;
+    font-family: coffee;
+    text-align: center;
+
+}
+.nav{
+    display: inline;
+    padding:20px;
+}
+
+a {
+    text-decoration: none;
+    color: #37251b;
+}
+#top{
+    padding-top:100px;
+}
+p{
+    text-align:left;
+    font-family: coffee;
+}
+.list{
+    font-family: coffee;
+}
+.headings{
+    font-size:25px;
+    font-weight: 1000;
+}
+p{
+    font-size: 20px;
+}

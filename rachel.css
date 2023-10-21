@@ -1,0 +1,57 @@
+body {
+    text-align:center;
+    background-color: #d2c1b0;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(font/HerculanumLTStd.woff);
+}
+
+@font-face {
+    font-family: coffee;
+    src: url(font/coffee-latte.regular.ttf)
+}
+
+h1 {
+    font-size:50px;
+    font-family: myFirstFont;
+}
+.abt{
+    font-size:25px;
+    margin-left:250px;
+    margin-right:250px;
+    font-family: coffee;
+    color: #6F4436;
+
+}
+.navbar {
+    list-style-type: none;
+    top:0;
+    left:0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    background-color: #ad6d2f;
+    position:fixed;
+    font-family: coffee;
+
+}
+
+
+li{
+    display: inline;
+    padding:20px;
+}
+.top {    
+    display:block;
+    padding-top:10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+a {
+    text-decoration: none;
+    color: #37251b;
+}
